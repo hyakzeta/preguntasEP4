@@ -1,0 +1,92 @@
+[
+        Pregunta(
+            titulo: "¿Cuál es la propiedad de SwiftUI que se utiliza para configurar el valor seleccionado en un datepicker?",
+            respuesta: "date",
+            opcion: [
+                "selectedDate",
+                "date",
+                "selectedValue"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Qué estilo de datepicker muestra un calendario para seleccionar una fecha?",
+            respuesta: "DatePickerStyle.default",
+            opcion: [
+                "DatePickerStyle.default",
+                "DatePickerStyle.compact",
+                "DatePickerStyle.wheel"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Cómo se establece un rango de fechas mínimas y máximas seleccionables en un datepicker?",
+            respuesta: "minimumDate y maximumDate",
+            opcion: [
+                "minimumDate y maximumDate",
+                "minDate y maxDate",
+                "dateRange(from:to:)"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Cuál de estas etiquetas se utiliza para mostrar un datepicker en SwiftUI?",
+            respuesta: "DatePicker",
+            opcion: [
+                "<DatePicker>",
+                "<UIDatePicker>",
+                "DatePicker"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Qué tipo de datos devuelve el datepicker al seleccionar una fecha?",
+            respuesta: "Date",
+            opcion: [
+                "Date",
+                "String",
+                "Int"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Cuál es el modificador que se usa para establecer el modo de visualización del datepicker?",
+            respuesta: ".datePickerStyle()",
+            opcion: [
+                ".datePickerStyle()",
+                ".style()",
+                ".viewMode()"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Cómo se configura un datepicker para mostrar la hora junto con la fecha?",
+            respuesta: "DatePickerStyle.dateAndTime",
+            opcion: [
+                "DatePickerStyle.dateAndTime",
+                "DatePickerStyle.time",
+                "DatePickerStyle.date"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Cuál es el modificador que se usa para controlar el color del texto del datepicker?",
+            respuesta: ".foregroundColor()",
+            opcion: [
+                ".textColor()",
+                ".foregroundColor()",
+                ".color()"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Qué atributo se utiliza para manejar eventos cuando cambia el valor del datepicker?",
+            respuesta: "onChange()",
+            opcion: [
+                "onChange()",
+                "onDatePickerChange()",
+                "onValueChange()"
+            ]
+        ),
+        Pregunta(
+            titulo: "¿Cuál es la forma de establecer un valor predeterminado en un datepicker?",
+            respuesta: "DatePicker(selection: $date)",
+            opcion: [
+                "DatePicker.default(value: Date())",
+                "DatePicker(selection: $date)",
+                "DatePicker(initialValue: Date())"
+            ]
+        )
+    ]
