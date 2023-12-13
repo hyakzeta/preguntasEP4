@@ -1,92 +1,92 @@
 [
         Pregunta(
-            titulo: "¿Cuál es la propiedad de SwiftUI que se utiliza para configurar el valor seleccionado en un datepicker?",
-            respuesta: "date",
+            titulo: "¿Cuál es el propósito principal de la función alert en SwiftUI?",
+            respuesta: "Mostrar mensajes de alerta al usuario",
             opcion: [
-                "selectedDate",
-                "date",
-                "selectedValue"
+                "Presentar una imagen en pantalla",
+                "Mostrar mensajes de alerta al usuario",
+                "Animar transiciones entre vistas"
             ]
         ),
         Pregunta(
-            titulo: "¿Qué estilo de datepicker muestra un calendario para seleccionar una fecha?",
-            respuesta: "DatePickerStyle.default",
+            titulo: "¿Qué tipo de contenido se puede mostrar en una alerta usando la función alert?",
+            respuesta: "Imágenes y texto",
             opcion: [
-                "DatePickerStyle.default",
-                "DatePickerStyle.compact",
-                "DatePickerStyle.wheel"
+                "Solo texto",
+                "Imágenes y texto",
+                " Solo imágenes"
             ]
         ),
         Pregunta(
-            titulo: "¿Cómo se establece un rango de fechas mínimas y máximas seleccionables en un datepicker?",
-            respuesta: "minimumDate y maximumDate",
+            titulo: "¿Cuál es el modificador que se utiliza para agregar una alerta a una vista en SwiftUI?",
+            respuesta: "alert",
             opcion: [
-                "minimumDate y maximumDate",
-                "minDate y maxDate",
-                "dateRange(from:to:)"
+                "popup",
+                "alert",
+                "message"
             ]
         ),
         Pregunta(
-            titulo: "¿Cuál de estas etiquetas se utiliza para mostrar un datepicker en SwiftUI?",
-            respuesta: "DatePicker",
+            titulo: "¿Cómo se especifica el título de una alerta en SwiftUI?",
+            respuesta: "Alert(title: "Título")",
             opcion: [
-                "<DatePicker>",
-                "<UIDatePicker>",
-                "DatePicker"
+                "alert("Título")",
+                "title("Título")",
+                "Alert(title: "Título")"
             ]
         ),
         Pregunta(
-            titulo: "¿Qué tipo de datos devuelve el datepicker al seleccionar una fecha?",
-            respuesta: "Date",
+            titulo: "¿Puedes personalizar los botones de una alerta en SwiftUI?",
+            respuesta: "Sí, usando el modificador buttons.",
             opcion: [
-                "Date",
-                "String",
-                "Int"
+                "Sí, usando el modificador buttons.",
+                "No, los botones son fijos.",
+                " Sí, pero solo el botón de aceptar se puede personalizar."
             ]
         ),
         Pregunta(
-            titulo: "¿Cuál es el modificador que se usa para establecer el modo de visualización del datepicker?",
-            respuesta: ".datePickerStyle()",
+            titulo: "¿Qué tipo de datos se puede pasar como parámetro a la función alert para mostrar información dinámica?",
+            respuesta: "Cualquier tipo de dato.",
             opcion: [
-                ".datePickerStyle()",
-                ".style()",
-                ".viewMode()"
+                "Solo cadenas de texto.",
+                "Cualquier tipo de dato.",
+                "Solo números enteros."
             ]
         ),
         Pregunta(
-            titulo: "¿Cómo se configura un datepicker para mostrar la hora junto con la fecha?",
-            respuesta: "DatePickerStyle.dateAndTime",
+            titulo: "¿Cuál es el modificador que se utiliza para presentar una alerta condicionalmente en SwiftUI?",
+            respuesta: "alert(isPresented:)",
             opcion: [
-                "DatePickerStyle.dateAndTime",
-                "DatePickerStyle.time",
-                "DatePickerStyle.date"
+                "conditionalAlert",
+                "ifAlert",
+                "alert(isPresented:)"
             ]
         ),
         Pregunta(
-            titulo: "¿Cuál es el modificador que se usa para controlar el color del texto del datepicker?",
-            respuesta: ".foregroundColor()",
+            titulo: "¿Puedes tener múltiples alertas en una sola vista en SwiftUI?",
+            respuesta: "No, solo se permite una alerta por vista.",
             opcion: [
-                ".textColor()",
-                ".foregroundColor()",
-                ".color()"
+                "Sí.",
+                "No, solo se permite una alerta por vista.",
+                "Solo si se utiliza un NavigationView."
             ]
         ),
         Pregunta(
-            titulo: "¿Qué atributo se utiliza para manejar eventos cuando cambia el valor del datepicker?",
-            respuesta: "onChange()",
+            titulo: "¿Cuál es la forma correcta de cerrar una alerta después de que el usuario selecciona una opción?",
+            respuesta: "presentationMode.wrappedValue.dismiss()",
             opcion: [
-                "onChange()",
-                "onDatePickerChange()",
-                "onValueChange()"
+                "closeAlert()",
+                "dismissAlert()",
+                "presentationMode.wrappedValue.dismiss()"
             ]
         ),
         Pregunta(
-            titulo: "¿Cuál es la forma de establecer un valor predeterminado en un datepicker?",
-            respuesta: "DatePicker(selection: $date)",
+            titulo: "¿La función alert en SwiftUI se utiliza solo para dispositivos móviles o también se puede usar en macOS?",
+            respuesta: "Se puede utilizar tanto en dispositivos móviles como en macOS.",
             opcion: [
-                "DatePicker.default(value: Date())",
-                "DatePicker(selection: $date)",
-                "DatePicker(initialValue: Date())"
+                "Solo en dispositivos móviles.",
+                "Solo en macOS.",
+                "Se puede utilizar tanto en dispositivos móviles como en macOS."
             ]
         )
     ]
